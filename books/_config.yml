@@ -8,10 +8,10 @@ baseurl: /books
 title: 鞋带松开了
 
 # site favicon, absolute path required
-favicon: /assets/img/favicon.ico
+favicon: {{site.baseurl}}/assets/img/favicon.ico
 
 # home button image, absolute path requried
-avatar: /assets/img/avatar.jpg
+avatar: {{site.baseurl}}/assets/img/avatar.jpg
 # specify meaningful description for your avatar
 avatarInfo: "Books"
 
