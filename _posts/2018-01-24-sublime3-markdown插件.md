@@ -3,11 +3,14 @@ title: sublime3-markdown插件
 date: 2018-01-24
 ---
 
-想着日后要常用markdown了，所以在sublime中添加了markdown的插件，果然，舒服多了，嘿嘿嘿
+&nbsp;想着日后要常用markdown了，所以在sublime中添加了markdown的插件，果然，舒服多了，嘿嘿嘿
 
 ### MarkdownEditing
+
 查了几个推荐，这个都在第一位，于是就选择了
+
 系统：win10
+
 版本：sublime3
 + 首先在sublime中安装[package control](https://packagecontrol.io/installation)
     - 菜单栏View->Show Console打开sublime的控制台
@@ -25,11 +28,4 @@ date: 2018-01-24
 + 修改样式
     - 在菜单栏Preference->Package Setting->Markdown Editing中能修改其样式等属性
 
-
-
-
-
-
-
-
-安装参考 [介绍Sublime3下两款Markdown插件](https://www.jianshu.com/p/335b7d1be39e)
+>安装参考 [介绍Sublime3下两款Markdown插件](https://www.jianshu.com/p/335b7d1be39e)
