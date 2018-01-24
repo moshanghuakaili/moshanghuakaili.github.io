@@ -5,7 +5,9 @@ layout: page
 <div class="posts">
   <ul>
     {% for post in site.posts %}
+    {% if post.type == 1 %}
     <li>{% include card.html post = post %}</li>
+    {% endif %}
     {% endfor %}
   </ul>
 </div>

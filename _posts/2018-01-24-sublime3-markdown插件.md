@@ -1,6 +1,7 @@
 ---
 title: sublime3-markdown插件
 date: 2018-01-24
+type: 1
 ---
 
 &nbsp;想着日后要常用markdown了，所以在sublime中添加了markdown的插件，果然，舒服多了，嘿嘿嘿
