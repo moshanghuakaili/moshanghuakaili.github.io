@@ -1,0 +1,11 @@
+---
+layout: page
+---
+
+<div class="posts">
+  <ul>
+    {% for pieceStudy in site.pieceStudys %}
+    <li>{% include card.html post = pieceStudy %}</li>
+    {% endfor %}
+  </ul>
+</div>
