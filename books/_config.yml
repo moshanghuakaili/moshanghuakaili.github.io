@@ -2,16 +2,16 @@
 # ============================================================================
 # if your site is serving on https://xxx.github.io, set `baseurl: /`
 # if your site is serving on https://xxx.github.io/path, set `baseurl: /path`
-baseurl: /books
+baseurl: /
 
 # site title
 title: Books
 
 # site favicon, absolute path required
-favicon: /assets/img/favicon.ico
+favicon: /books/assets/img/favicon.ico
 
 # home button image, absolute path requried
-avatar: /assets/img/avatar.jpg
+avatar: /books/assets/img/avatar.jpg
 # specify meaningful description for your avatar
 avatarInfo: "Books"
 
