@@ -2,6 +2,7 @@
 title: angular-quickstart
 date: 2018-03-05
 type: 1
+category: Piece study
 ---
 
 &nbsp;开始学angular吧
