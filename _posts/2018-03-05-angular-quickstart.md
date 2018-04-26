@@ -1,6 +1,6 @@
 ---
 title: angular-quickstart
-date: 2018-0.-05
+date: 2018-03-05
 type: 1
 ---
 
