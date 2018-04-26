@@ -1,0 +1,27 @@
+{% assign post = include.post %}
+{% assign volume = include.volume %}
+
+<a href="{{ post.url | relative_url }}">
+  <div class="card">
+
+    <h1 class="card__title">{{ post.title }}
+    	<span class="card__titleTag">{% if post.type==0 %}
+    		Book
+    		{% else if post.type==1 %}
+    		Piece study
+    		{% else if post.type==2 %}
+    		Poem
+    		{% endif %}
+    	}</span>
+    </h1>
+
+    <div class="card__date">{{ post.date | date: "%Y / %m / %d"}}</div>
+
+    {% assign excerpt = post.excerpt | strip_html %}
+    {% if volume == 'less' %}
+    {% assign excerpt = excerpt | truncatewords: 10 %}
+    {% endif %}
+    <div class="card__excerpt">{{ excerpt }}</div>
+
+  </div>
+</a>
