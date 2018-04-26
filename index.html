@@ -15,17 +15,6 @@
 
     {% include navigation.html %}
 
-    <main class="main clear-header--left">
-
-    <ul>
-	    {% for post in site.posts %}
-	    {% if post.type == 0 %}
-	    <li>{% include card.html post = post %}</li>
-	    {% endif %}
-	    {% endfor %}
-  	</ul>
-
-    </main>
 
     {% include footer.html %}
 
